@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TVLogin" />
+    <string name="login">Login</string>
+
+    <string name="taxi1">   taxi1 : Phone number : 07 60 43 52 55 </string>
+    <string name="taxi2">   taxi2 : Phone number : 07 47 43 52 55 </string>
+    <string name="taxi3">   taxi3 : Phone number : 07 60 43 98 55 </string>
+    <string name="taxi4">   taxi4 : Phone number : 06 60 43 52 55 </string>
+    <string name="taxi5">   taxi5 : Phone number : 07 60 64 52 55 </string>
+    <string name="taxi6">   taxi6 : Phone number : 06 60 43 72 55 </string>
+    <string name="taxi7">   taxi7 : Phone number : 06 60 43 52 55 </string>
+    <string name="taxi8">   taxi8 : Phone number : 06 60 43 52 55 </string>
+    <string name="taxi9">   taxi9 : Phone number : 07 60 73 52 55 </string>
+    <string name="taxi10">   taxi10 : Phone number : 07 60 43 52 95 </string>
+
+    <string name="avis1">excellent ride</string>
+    <string name="avis2">very good</string>
+    <string name="avis3">nice app !!!</string>
+    <string name="avis4">love it</string>
+    <string name="avis5">wonderful time</string>
+    <string name="avis6">very nice taxi guy.</string>
+</resources>

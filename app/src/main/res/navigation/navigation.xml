@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/creationprofile">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.myapplication.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_creationprofile3"
+            app:destination="@id/creationprofile" />
+    </fragment>
+    <fragment
+        android:id="@+id/creationprofile"
+        android:name="com.example.myapplication.creationprofile"
+        android:label="fragment_creationprofile"
+        tools:layout="@layout/fragment_creationprofile" >
+        <action
+            android:id="@+id/action_creationprofile_to_blankFragment2"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_creationprofile_to_listetaxi"
+            app:destination="@id/listetaxi" />
+    </fragment>
+    <fragment
+        android:id="@+id/historic"
+        android:name="com.example.myapplication.historic"
+        android:label="fragment_historic"
+        tools:layout="@layout/fragment_historic" >
+        <action
+            android:id="@+id/action_historic_to_listetaxi"
+            app:destination="@id/listetaxi" />
+    </fragment>
+    <fragment
+        android:id="@+id/listetaxi"
+        android:name="com.example.myapplication.listetaxi"
+        android:label="fragment_listetaxi"
+        tools:layout="@layout/fragment_listetaxi" >
+        <action
+            android:id="@+id/action_listetaxi_to_creationprofile"
+            app:destination="@id/creationprofile" />
+        <action
+            android:id="@+id/action_listetaxi_to_historic"
+            app:destination="@id/historic" />
+    </fragment>
+</navigation>
